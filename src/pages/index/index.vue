@@ -11,7 +11,7 @@
 export default {
   data() {
     return {
-      title: 'uni-common-plugin-preset',
+      title: 'zui-common-plugin-preset',
     }
   },
   onLoad() {},

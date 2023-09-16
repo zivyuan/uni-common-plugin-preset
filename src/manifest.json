@@ -1,5 +1,5 @@
 {
-    "name" : "uni-common-plugin-preset",
+    "name" : "zui-common-plugin-preset",
     "appid" : "",
     "description" : "",
     "versionName" : "0.1.0",
@@ -7,7 +7,7 @@
     "transformPx" : false,
     "h5" : {
         "router" : {
-            "base" : "/uni-common-plugin-preset/"
+            "base" : "/zui-common-plugin-preset/"
         },
         "optimization" : {
             "treeShaking" : {
@@ -15,7 +15,7 @@
             }
         },
         "template" : "template/h5.html",
-        "title" : "uni-common-plugin-preset 示例"
+        "title" : "zui-common-plugin-preset 示例"
     },
     /* 5+App特有相关 */
     "app-plus" : {

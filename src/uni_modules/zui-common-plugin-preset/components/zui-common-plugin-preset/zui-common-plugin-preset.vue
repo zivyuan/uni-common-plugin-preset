@@ -1,12 +1,12 @@
 <template>
-  <view class="uni-common-plugin-preset">
+  <view class="zui-common-plugin-preset">
 
   </view>
 </template>
 
 <script>
 export default {
-  name: 'uni-common-plugin-preset',
+  name: 'zui-common-plugin-preset',
 
   props: {},
 
@@ -19,6 +19,6 @@ export default {
 </script>
 
 <style scoped lang="scss">
-// .uni-common-plugin-preset {
+// .zui-common-plugin-preset {
 // }
 </style>

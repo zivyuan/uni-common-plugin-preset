@@ -1,10 +1,10 @@
 {
-  "id": "uni-common-plugin-preset",
+  "id": "zui-common-plugin-preset",
   "displayName": "",
   "version": "0.1.0",
   "description": "",
   "keywords": [],
-  "repository": "https://github.com/zivyuan/uni-common-plugin-preset.git",
+  "repository": "https://github.com/zivyuan/zui-common-plugin-preset.git",
   "engines": {
     "HBuilderX": "^3.4.15"
   },

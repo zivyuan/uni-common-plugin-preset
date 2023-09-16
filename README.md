@@ -4,7 +4,7 @@
 
 
 ```
-git clone https://github.com/zivyuan/uni-common-plugin-preset.git ./your-plugin-path
+git clone https://github.com/zivyuan/zui-common-plugin-preset.git ./your-plugin-path
 
 cd your-plugin-path
 

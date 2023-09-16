@@ -1,6 +1,18 @@
 {
-  "name": "uni-common-plugin-preset-demo",
+  "name": "zui-common-plugin-preset-demo",
   "version": "0.1.0",
+  "description": "uniapp 前端通用组件开发模板",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zivyuan/zui-common-plugin-preset.git"
+  },
+  "keywords": [
+    "uniapp",
+    "前端组件",
+    "插件开发"
+  ],
+  "author": "zivyuan",
+  "license": "MIT",
   "scripts": {
     "dev": "npm run dev:h5",
     "dev:app": "uni -p app",
