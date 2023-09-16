@@ -8,6 +8,9 @@
 		}
 	],
 	"globalStyle": {
+    // #ifdef H5
+		"navigationStyle": "custom",
+    // #endif
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "uni-common-plugin-preset 示例",
 		"navigationBarBackgroundColor": "#F8F8F8",

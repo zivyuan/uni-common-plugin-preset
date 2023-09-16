@@ -21,3 +21,7 @@ if which yarn >/dev/null 2>&1; then
 else
   npm install
 fi
+
+git init
+git add .
+git commit -m "init"
