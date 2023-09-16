@@ -2,8 +2,16 @@
 
 ## 使用
 
-下载代码后运行
 
 ```
+git clone https://github.com/zivyuan/uni-common-plugin-preset.git ./your-plugin-path
+
+cd your-plugin-path
+
 sh scripts/init.sh
+
+yarn dev
+
+# Enjoy coding!
+
 ```
