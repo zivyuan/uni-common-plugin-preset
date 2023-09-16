@@ -10,7 +10,7 @@
   "author": "zivyuan",
   "license": "MIT",
   "scripts": {
-    "dev": "npm run dev:h5",
+    "dev": "npm run dev:custom h5-dev",
     "dev:app": "uni -p app",
     "dev:app-android": "uni -p app-android",
     "dev:app-ios": "uni -p app-ios",
@@ -74,6 +74,15 @@
   },
   "uni-app": {
     "scripts": {
+      "h5-dev": {
+        "title": "H5 (DEV)",
+        "env": {
+          "UNI_PLATFORM": "h5"
+        },
+        "define": {
+          "DEVELOPMENT": true
+        }
+      },
       "mp-dingtalk": {
         "title": "钉钉小程序",
         "env": {
