@@ -2,16 +2,7 @@
 
 ## 使用
 
-
-```
-git clone https://github.com/zivyuan/zui-common-plugin-preset.git ./your-plugin-path
-
-cd your-plugin-path
-
-sh scripts/init.sh
-
-yarn dev
-
-# Enjoy coding!
-
-```
+1. 下载模板
+2. 将模板解压到项目目录，并使用** 组件 ID **重命名目录
+3. 进入目录，运行: `sh scripts/init.sh`
+4. `yarn dev` 启动项目，开启快乐开发之旅
