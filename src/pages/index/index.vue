@@ -1,8 +1,12 @@
 <template>
   <view class="content">
-    <image class="logo" src="/static/logo.png"></image>
-    <view class="text-area">
-      <text class="title">{{ title }}</text>
+    <view class="demo-header">
+      <image class="logo" src="/static/logo.png"></image>
+      <text class="title">&lt;{{ title }} /&gt;</text>
+    </view>
+
+    <view class="demo-container">
+
     </view>
   </view>
 </template>
@@ -27,22 +31,28 @@ export default {
   justify-content: center;
 }
 
-.logo {
-  height: 200rpx;
-  width: 200rpx;
-  margin-top: 200rpx;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 50rpx;
+.demo-header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  padding: 32rpx;
+  box-sizing: border-box;
 }
 
-.text-area {
-  display: flex;
-  justify-content: center;
+.logo {
+  height: 64rpx;
+  width: 64rpx;
+  margin-right: 32rpx;
 }
 
 .title {
   font-size: 36rpx;
   color: #8f8f94;
+}
+
+.demo-container {
+  width: 80%;
+  margin: 0 auto;
 }
 </style>
