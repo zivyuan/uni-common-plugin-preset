@@ -14,7 +14,6 @@
                 "enable" : true
             }
         },
-        "template" : "template/h5.html",
         "title" : "zui-common-plugin-preset 示例"
     },
     /* 5+App特有相关 */
