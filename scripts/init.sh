@@ -18,8 +18,10 @@ sed  -i '' "s/zui-common-plugin-preset/${PROJ}/g" src/manifest.json
 
 if which yarn >/dev/null 2>&1; then
   yarn install
+  yarn add sass sass-loader
 else
   npm install
+  npm install sass sass-loader
 fi
 
 rm -rf .git
