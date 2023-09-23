@@ -8,7 +8,7 @@
     "uniapp",
     "前端组件",
     "插件开发"
-],
+  ],
   "author": "zivyuan",
   "license": "MIT",
   "scripts": {
@@ -74,7 +74,7 @@
     "@vue/runtime-core": "^3.2.45",
     "vite": "4.1.4"
   },
-"dcloudext": {
+  "dcloudext": {
     "type": "uniapp-template-project"
   },
   "uni-app": {
