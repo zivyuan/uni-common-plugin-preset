@@ -1,12 +1,14 @@
 <template>
-  <view class="zui-common-plugin-preset">
-
+  <view class="zui-component-starter">
+    <view class="wrapper">
+      uniapp 前端通用组件
+    </view>
   </view>
 </template>
 
 <script>
 export default {
-  name: 'zui-common-plugin-preset',
+  name: 'zui-component-starter',
 
   props: {},
 
@@ -19,6 +21,6 @@ export default {
 </script>
 
 <style scoped lang="scss">
-// .zui-common-plugin-preset {
+// .zui-component-starter {
 // }
 </style>

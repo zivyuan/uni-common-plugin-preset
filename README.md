@@ -1,8 +1,2 @@
-# uniapp 通用插件模板
+# Zui Component Starter 示例
 
-## 使用
-
-1. 下载模板
-2. 将模板解压到项目目录，并使用** 组件 ID **重命名目录
-3. 进入目录，运行: `sh scripts/init.sh`
-4. `yarn dev` 启动项目，开启快乐开发之旅

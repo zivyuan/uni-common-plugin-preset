@@ -1,20 +1,20 @@
 {
-    "name" : "zui-common-plugin-preset",
-    "appid" : "",
+    "name" : "zui-component-starter",
+    "appid" : "zui-component-starter",
     "description" : "",
     "versionName" : "0.1.0",
     "versionCode" : "010",
     "transformPx" : false,
     "h5" : {
         "router" : {
-            "base" : "/zui-common-plugin-preset/"
+            "base" : "/zui-component-starter"
         },
         "optimization" : {
             "treeShaking" : {
                 "enable" : true
             }
         },
-        "title" : "zui-common-plugin-preset 示例"
+        "title" : "zui-component-starter 示例"
     },
     /* 5+App特有相关 */
     "app-plus" : {

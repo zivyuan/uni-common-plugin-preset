@@ -1,10 +1,10 @@
 {
-  "id": "zui-common-plugin-preset",
+  "id": "zui-component-starter",
   "displayName": "",
   "version": "0.1.0",
   "description": "",
   "keywords": [],
-  "repository": "https://github.com/zivyuan/zui-common-plugin-preset.git",
+  "repository": "",
   "engines": {
     "HBuilderX": "^3.4.15"
   },

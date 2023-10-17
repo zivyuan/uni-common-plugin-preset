@@ -6,7 +6,7 @@
     </view>
 
     <view class="demo-container">
-
+      <zui-component-starter />
     </view>
   </view>
 </template>
@@ -15,7 +15,7 @@
 export default {
   data() {
     return {
-      title: 'zui-common-plugin-preset',
+      title: 'zui-component-starter',
     }
   },
   onLoad() {},
