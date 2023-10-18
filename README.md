@@ -1,7 +1,24 @@
-# zui-component-starter-name 示例
+# zui-component-starter 示例
 
-## 初始化
+uniapp 前端通用组件快速启动模板。
+
+符合 easycom 规范。
+
+
+## 快速开始
 
 ```shell
-npx create-uni-component
+# 零、安装 zx 环境
+#     如已安装，可跳过
+npm i -g zx
+
+# 壹、安装项目依赖
+npm i
+
+# 贰、初始化
+zx scripts/init.js
+
+# 叁、启动
+npm run dev
+
 ```

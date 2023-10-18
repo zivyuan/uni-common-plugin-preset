@@ -1,7 +1,7 @@
 {
   "name": "zui-component-starter",
   "appid": "__UNI__FAKEAPPID",
-  "description": "zui-component-starter-desc",
+  "description": "zui-component-starter-description",
   "versionName": "0.1.0",
   "versionCode": "010",
   "transformPx": false,
