@@ -9,14 +9,11 @@ uniapp 前端通用组件快速启动模板。
 - nodejs  `>= v15`
 - zx `>= v7.2`
 
-** 目前不支持 Windows **
-
 
 ## 快速开始
 
 ```shell
 # 零、安装 zx 环境
-#     如已安装，可跳过
 npm i -g zx
 
 # 壹、安装项目依赖
@@ -29,3 +26,5 @@ zx scripts/init.js
 npm run dev
 
 ```
+
+** 初始化脚本不支持 Windows **
