@@ -158,7 +158,18 @@ const updatePluginInfo = (filename) => {
     encoding: "utf-8",
   });
 };
-updatePluginInfo(`${fullpath}/package.json`);
+// updatePluginInfo(`${fullpath}/package.json`);
+// uni 会在插件上传时重写部分属性导致预留的 token 失效
+// 单独方法写入组件配置
+const fpackage = `${fullpath}/package.json`
+const pjson = JSON.parse(fs.readFileSync(fpackage, { encoding: 'utf-8' }))
+pjson.name = `${answers.pluginId}-demo`
+pjson.description = answers.description
+pjson.keywords = answers.tags
+pjson.author = answers.author
+fs.writeFileSync(fpackage, JSON.stringify(pjson, null, 2), {
+  encoding: 'utf-8'
+})
 updatePluginInfo(`${fullpath}/README.md`);
 updatePluginInfo(`${fullpath}/src/manifest.json`);
 updatePluginInfo(`${fullpath}/src/pages.json`);
@@ -171,8 +182,55 @@ updatePluginInfo(
 );
 updatePluginInfo(`${fullpath}/src/pages/index/index.vue`);
 
+
+// 重建 .editorconfig 和 .gitignore 两个文件
+const gitignore = `# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+.DS_Store
+dist
+*.local
+
+# Editor directories and files
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+`
+fs.writeFileSync('.gitignore', gitignore, {
+  encoding: 'utf-8'
+})
+//
+const editorconfig = `# EditorConfig is awesome: https://EditorConfig.org
+
+# top-most EditorConfig file
+root = true
+
+[*]
+indent_style = space
+indent_size = 2
+end_of_line = lf
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = false
+`
+fs.writeFileSync('.editorconfig', editorconfig, {
+  encoding: 'utf-8'
+})
+
+
 console.log('初始化 git...')
 await $`git init; git add .; git commit -m "initial" `;
+
 
 console.log(`初始化完成，编程快乐！`)
 console.log(``)
