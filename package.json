@@ -2,9 +2,9 @@
   "name": "zui-component-starter-demo",
   "version": "0.1.3",
   "description": "zui-component-starter-description",
-  "keywords": [],
-  "author": "",
-  "license": "",
+  "keywords": ["zui-component-starter-tags"],
+  "author": "zui-component-starter-author",
+  "license": "ISC",
   "scripts": {
     "dev": "npm run dev:custom h5-dev",
     "dev:app": "uni -p app",
