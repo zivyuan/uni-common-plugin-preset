@@ -1,7 +1,7 @@
 <template>
   <view class="zui-component-starter">
     <view class="wrapper">
-      uniapp 前端通用组件
+      zui-component-starter-name
     </view>
   </view>
 </template>

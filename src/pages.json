@@ -1,19 +1,20 @@
 {
-	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
-		{
-			"path": "pages/index/index",
-			"style": {
-				"navigationBarTitleText": "Zui Component Starter 示例"
-			}
-		}
-	],
-	"globalStyle": {
+  "pages": [
+    //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": "zui-component-starter-name 示例"
+      }
+    }
+  ],
+  "globalStyle": {
     // #ifdef H5
-		"navigationStyle": "custom",
+    "navigationStyle": "custom",
     // #endif
-		"navigationBarTextStyle": "black",
-		"navigationBarTitleText": "Zui Component Starter 示例",
-		"navigationBarBackgroundColor": "#F8F8F8",
-		"backgroundColor": "#F8F8F8"
-	}
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "zui-component-starter-name 示例",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  }
 }

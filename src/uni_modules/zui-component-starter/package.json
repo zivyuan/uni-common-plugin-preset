@@ -1,9 +1,9 @@
 {
   "id": "zui-component-starter",
-  "displayName": "",
+  "displayName": "zui-component-starter-name",
   "version": "0.1.0",
-  "description": "",
-  "keywords": [],
+  "description": "zui-component-starter-description",
+  "keywords": ["zui-component-starter-tags"],
   "repository": "",
   "engines": {
     "HBuilderX": "^3.4.15"

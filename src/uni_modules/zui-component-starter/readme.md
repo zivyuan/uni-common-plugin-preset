@@ -1,8 +1,8 @@
 # &lt;zui-component-starter /&gt;
 
-Uni Component Starter
+zui-component-starter-name
 
-Uni compoennt starter description
+zui-component-starter-description
 
 ## 快速开始
 

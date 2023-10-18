@@ -1,2 +1,2 @@
-# Zui Component Starter 示例
+# zui-component-starter-name 示例
 
