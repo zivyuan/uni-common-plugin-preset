@@ -20,7 +20,7 @@ npm i -g zx
 npm i
 
 # 贰、初始化
-zx scripts/init.js
+zx scripts/init.mjs
 
 # 叁、启动
 npm run dev
