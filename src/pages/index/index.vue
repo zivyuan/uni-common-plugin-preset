@@ -2,7 +2,7 @@
   <view class="content">
     <view class="demo-header">
       <image class="logo" src="/static/logo.png"></image>
-      <text class="title">&lt;{{ title }} /&gt;</text>
+      <text class="title">{{ `<${title} />` }} </text>
     </view>
 
     <view class="demo-container">
